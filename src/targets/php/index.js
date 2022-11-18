@@ -5,9 +5,10 @@ module.exports = {
     key: 'php',
     title: 'PHP',
     extname: '.php',
-    default: 'curl'
+    default: 'guzzle'
   },
 
+  guzzle: require('./guzzle'),
   curl: require('./curl'),
   http1: require('./http1'),
   http2: require('./http2')
